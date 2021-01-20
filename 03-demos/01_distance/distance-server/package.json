@@ -1,0 +1,25 @@
+{
+  "name": "sensor-variable-font_distance",
+  "version": "1.1",
+  "description": "Improving the user experience of graphic interfaces through variable fonts and sensors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "Variable font",
+    "Sensors",
+    "Interactive design",
+    "Graphic User Interfaces"
+  ],
+  "author": "Iván Huelves & Lourdes Marco <hi@sensorvariablefont.com> (http://sensorvariablefont.com)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.0.0",
+    "serialport": "^9.0.4",
+    "socket.io": "^3.0.5"
+  }
+}

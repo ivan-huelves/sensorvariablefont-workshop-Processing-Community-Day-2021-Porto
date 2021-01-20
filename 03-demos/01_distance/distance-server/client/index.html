@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sensor Variable Font - Distancia</title>
+        <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+        <!-- to be able to have the SocketIo library that communicates in real time -->
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+        <!-- to communicate with the Js -->
+        <script src="/main.js" charset="utf-8"></script>
+  
+    </head>
+    <body>
+        <div class="cont">
+            <img id="background" src="ilustraciones-prototipos-distancia-04.svg">
+            <!-- I modify the variation axis with the calculated value -->
+            <div id="valueChangeVariationAxes">
+            <!-- I show the value collected by the sensor -->    
+                <span id="showSensorValue"></span>
+            </div>
+            
+            <div id="info">
+                <div id="Module11"><span class="bold">Sensor:</span> Distance</div>
+                <div id="Module21"><span class="bold">Variable font:</span> Kairos Sans Variable</div>
+                <div id="Module31"><span class="bold">Variation axis:</span> Weight</div>
+                <div id="Module41"><span class="bold">Signification Function:</span> Exponential increase + juxtaposition</div>
+                
+                <div id="Module12" class="bold">Normalizing Function:</div>
+                <div id="Module22">&nbsp;</div>
+                <div id="Module32">&nbsp;</div>
+                <div id="Module42">Registered value:</div>
+
+                <div id="Module13">Distance value</div>
+                <div id="Module23" class="thin">4</div>
+                <div id="Module33" class="thin">100</div>
+                <div id="Module43"><span id="showSensorValueBis"></span></div>
+
+                <div id="Module14">Value a.weight</div>
+                <div id="Module24" class="thin">900</div>
+                <div id="Module34" class="thin">250</div>
+                <div id="Module44"><span id="showAxesVariationValue"></span></div>
+           
+            </div>
+       
+        </div> 
+        
+    </body>
+</html>

@@ -1,0 +1,105 @@
+/*DECLARO VARIABLES CSS y les asigno un valor por defecto de inicio*/
+:root {
+    --italicWeight: 200;  
+}
+  
+ /*Loading fonts*/ 
+@font-face {
+      font-family: "SourceSansVariable-Italic";
+      /*attention to the format in which the font is loaded*/
+      src: url("SourceSansVariable-Italic.ttf") format("truetype-variations");
+}
+
+@font-face {
+      font-family: "IBMPlexSansVar-Roman";
+      /*attention to the format in which the font is loaded*/
+      src: url("IBMPlexSansVar-Roman.ttf") format("truetype-variations");
+}
+  
+  html, body{
+      height: 100%;
+      margin: 0;
+      padding: 0; 
+    }
+    
+    body{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      color:white;
+      overflow: hidden;
+    }
+    
+    .cont{
+      height: 100%;
+      display: inline-block;
+      position: relative;
+    }
+    
+    #background{
+      height: 100%;
+    }
+
+/*MODIFICA EL VALOR DE LOS EJES DE VARIACIÓN A PARTIR DEL DATO RECIBIDO*/
+
+
+    #valueChangeVariationAxes {
+      font-family: "SourceSansVariable-Italic";
+      /*with this property I access the axes of variation of the font*/
+      font-variation-settings: "wght" var(--italicWeight);
+    
+      font-size: 8vh;
+      
+      position: absolute;
+      top: 33vh;
+      left: 59vh;
+    }
+    
+    #info {
+      font-family: "IBMPlexSansVar-Roman";
+      font-size: 1.5vh;
+    
+      position: absolute;
+      bottom: 1.6em;
+      left: 4em;
+  
+      display: grid;
+      grid-template-columns: 49vh 18.5vh 12vh;
+      grid-gap: 0.1vh;
+      grid-template-areas:  "Module11 Module12 Module13 Module14"
+                            "Module21 Module22 Module23 Module24"
+                            "Module31 Module32 Module33 Module34"
+                            "Module41 Module42 Module43 Module44";
+  }
+    
+    .bold{font-variation-settings: 'wght' 700;}
+    
+    .thin{font-variation-settings: 'wght' 200;}
+    
+/*COLUMN 1*/
+#Module11{grid-area: Module11;}
+#Module21{grid-area: Module21;}
+#Module31{grid-area: Module31;}
+#Module41{grid-area: Module41;}
+  
+/*COLUMN 2*/
+#Module12{grid-area: Module12;}
+#Module22{grid-area: Module22;}
+#Module32{grid-area: Module32;}
+#Module42{grid-area: Module42;}
+
+/*COLUMN 3*/
+#Module13{grid-area: Module13;}
+#Module23{grid-area: Module23;}
+#Module33{grid-area: Module33;}
+#Module43{grid-area: Module43;}
+
+/*COLUMN 4*/
+#Module14{grid-area: Module14;}
+#Module24{grid-area: Module24;}
+#Module34{grid-area: Module34;}
+#Module44{grid-area: Module44;}
+  
+   
+   
