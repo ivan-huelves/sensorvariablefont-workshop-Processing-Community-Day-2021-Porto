@@ -40,7 +40,7 @@ Iván Huelves develops his professional career as an accredited teacher, by the 
 Lourdes Marco is Graduated in Graphic Design from the Escuela Superior de Diseño de Madrid, Master’s Degree in User Experience Design from the International University of La Rioja, a Ph.D. student in Telematics Systems Engineering doctoral program at UPM. Since 2018 she works as a professor of technology applied to design at ESDM. She collaborates occasionally with the GING research group, the telematic engineering department of the Universidad Politécnica de Madrid. Her research interests focus on IoT, e-Learning, and web accessibility. She has published research papers in several international conferences and journals. Additional info and links: http://lourdesmarco.com/
 
 
-More information about the workshop context
+**More information about the workshop context**
 
 This workshop is part of the Processing Community Day 2021 @ Porto: https://pcd.fba.up.pt/
 
