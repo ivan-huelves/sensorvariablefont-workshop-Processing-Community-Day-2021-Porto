@@ -1,1 +1,1 @@
-Link to presentation https://sensorvariablefont.com/variable-font/presentation-for-processing-community-day-2021-porto-workshop/
+[Link to presentation] (https://sensorvariablefont.com/variable-font/presentation-for-processing-community-day-2021-porto-workshop/)
