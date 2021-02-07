@@ -75,8 +75,7 @@ io.on('connection', function (socket) {
   
     // Send value every certain amount of time to the client
     setInterval(() => {
-      socket.emit('sendNormalizedValue', sensorValue)
-      //socket.emit('sendNormalizedSensorValue', normalizedValue, sensorValue)
+      socket.emit('sendNormalizedValue', normalizedValue)
     }, 1)
 });
 // *******************************************
