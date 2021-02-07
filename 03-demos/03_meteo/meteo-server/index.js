@@ -40,7 +40,7 @@ let sensor;
 new five.Board().on('ready', function () {
     console.log('Now you are connected to Arduino :)');
   
-    // Distance sensor config.
+    // Water sensor config.
     sensor = new five.Sensor({
       pin: "A5" // pin number (in the arduino board)
     });

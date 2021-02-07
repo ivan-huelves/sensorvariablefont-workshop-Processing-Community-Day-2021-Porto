@@ -1,10 +1,11 @@
-/* create css variables */
+/*Declare CSS variables and assign them a default start value*/
 :root{
     --weightH1: 600;
 }
 /* include local fonts */
 @font-face {
     font-family: "KairosSans";
+    /*attention to the format in which the font is loaded*/
     src: url("../fonts/KairosSans_Variable.ttf") format("truetype-variations");
 }
 
@@ -26,6 +27,7 @@ body{
     /* ital value:  font italic axis 0-1 */
 h1{
     margin: 0; 
+    /*Modifies the value of the variation axes from the data received*/
     font-variation-settings: "wght" var(--weightH1), "wdth" 125;
     font-size: 3em;
     color: #00AEEF;
@@ -33,20 +35,14 @@ h1{
 h2{
     font-variation-settings: "wght" 300, "ital" 1;
     color: gray;
-    margin: .2em 0 2em 0;
+    margin: .2em 0 1em 0;
 }
-h3{
-    margin: 0 0 20px 0;
-}
-.controles{
+
+.info{
+    margin-top: 20px;
     padding: 20px;
     border: 1px #00AEEF solid;
     display: table-cell;
     vertical-align: middle;
-}
-#showAxisValue{
-    padding-top: .5em;
-}
-label, input{
-    vertical-align:middle;
+    line-height: 2em;
 }
